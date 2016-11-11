@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    tools:context="comp.ofertapp.CardFragment"
+    android:background="@drawable/card"
+    android:gravity="center">
+
+    <!-- TODO: Update blank fragment layout -->
+    <!--<ImageView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:src="@drawable/card"/>-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginTop="80dp"
+        android:text="ROGGER JULIAN ABURTO ABURTO"
+        android:textColor="#FFD700"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"/>
+
+</LinearLayout>
